@@ -4,3 +4,11 @@
 /.esphome/
 /secrets.yaml
 .esphome
+.venv
+.cache
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+photos/

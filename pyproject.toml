@@ -1,5 +1,5 @@
 [project]
-name = "samsung-wall-ac-ir"
+name = "samsung_wall_ac_ir"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = []

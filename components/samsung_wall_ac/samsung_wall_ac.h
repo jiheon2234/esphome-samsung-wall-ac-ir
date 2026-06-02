@@ -1,5 +1,7 @@
 #pragma once
 
+#include <cstdint>
+
 #include "esphome/components/climate_ir/climate_ir.h"
 
 namespace esphome {
@@ -8,7 +10,7 @@ namespace samsung_wall_ac {
 class SamsungWallAC : public climate_ir::ClimateIR {
 public:
   SamsungWallAC()
-      : climate_ir::ClimateIR(16.0f, 26.0f, 1.0f, false, false, {}, {}, {}) {}
+      : climate_ir::ClimateIR(16.0f, 32.0f, 1.0f, false, false, {}, {}, {}) {}
 
 protected:
   climate::ClimateTraits traits() override;

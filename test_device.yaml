@@ -18,7 +18,7 @@ wifi:
   password: "testPassword"
 
   ap:
-    ssid: "samsung-wall-ac-fallback"
+    ssid: "samsung_wall_ac_fallback"
     password: "fallback111"
 
 captive_portal:

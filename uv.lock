@@ -1189,7 +1189,7 @@ wheels = [
 ]
 
 [[package]]
-name = "samsung-wall-ac-ir"
+name = "samsung_wall_ac_ir"
 version = "0.1.0"
 source = { virtual = "." }
 
